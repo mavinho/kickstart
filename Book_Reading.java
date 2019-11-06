@@ -25,7 +25,9 @@ public class Solution {
 			dataTorn = new int[page + 1];
 			
 			for(int j = 1 ; j <= torn ; j++) {
+				
 				temp = scan.nextInt();
+				
 				for(int k = 1 ; k <= Math.sqrt(temp) ; k++) {
 					
 					if(temp % k == 0) {
@@ -43,7 +45,6 @@ public class Solution {
 				temp = scan.nextInt();
 				count += page/temp;
 				count -= dataTorn[temp];
-				
 			}
 			
 			System.out.println("Case #" + i + ": " + count);
