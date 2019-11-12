@@ -1,8 +1,10 @@
-package coding;
+/*
+https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02/000000000018fe36
+*/
 
 import java.util.Scanner;
 
-public class TheEquation {
+public class Solution {
 
     public static void main(String[] args) {
 
