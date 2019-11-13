@@ -1,8 +1,10 @@
-package coding;
+/*
+https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050e02
+*/
 
 import java.util.Scanner;
 
-public class Shifts {
+public class Solution {
 
     public static long[] a;
     public static long[] b;
